@@ -17,7 +17,7 @@ fn main() {
         if cmd == "hello" {
             println!("hello world");
         } else {
-            println!("Unknown command: {}", cmd);
+            println!("Unknown command: {cmd}");
         }
     }
 }
